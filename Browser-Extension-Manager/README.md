@@ -44,8 +44,8 @@ The goal of this project was to build a responsive browser extension management 
 
 ## Links
 
-- Solution URL: [GitHub Repository](ADD_GITHUB_LINK)
-- Live Site URL: [Live Demo](ADD_DEPLOYED_SITE_LINK)
+- Solution URL: [GitHub Repository](https://github.com/dlewisSTL/Browser-Extension-Manager)
+- Live Site URL: [Live Demo](https://browser-extension-manager-eight-eta.vercel.app)
 
 ---
 
