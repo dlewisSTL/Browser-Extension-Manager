@@ -194,6 +194,8 @@ function createExtensionCard(extension) {
     const card = document.createElement("div");
 
     card.classList.add("extension-card");
+    
+    card.dataset.active = extension.isActive;
 
     card.innerHTML = `
             <div class="extension-info">
@@ -254,6 +256,8 @@ function setupToggle(card, extension) {
     toggle.addEventListener("change", () => {
 
         extension.isActive = toggle.checked;
+        
+        card.dataset.active = extension.isActive;
 
         saveExtensions();
 
